@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-comdata-blue: #00A4EF;
+  --color-comdata-dark: #1a1a2e;
+  --color-comdata-text: #545454;
+  --color-card-green: #E6F1CC;
+  --color-card-yellow: #FFF1CC;
+  --color-card-pink: #FCDCD3;
+  --color-card-blue: #CCEDFC;
+  --font-inter: 'Inter', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrolling animation for clients */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* Ping animation for hero */
+@keyframes ping-slow {
+  0% { transform: scale(1); opacity: 0.6; }
+  75%, 100% { transform: scale(2); opacity: 0; }
+}
+
+.animate-ping-slow {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.animate-ping-slower {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation-delay: 0.7s;
+}
+
+.animate-ping-slowest {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation-delay: 1.4s;
+}
+
+/* Float animation for hero icons */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #00A4EF, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
