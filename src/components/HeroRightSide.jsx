@@ -630,7 +630,7 @@ initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transiti
                             ></div>
                           </div>
                         </div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '400.48px', 'top': '280px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -680,7 +680,7 @@ initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transiti
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '336.24px', 'top': '391.267px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -707,7 +707,7 @@ initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transiti
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '207.76px', 'top': '391.267px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -736,7 +736,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '143.52px', 'top': '280px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -769,7 +769,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '207.76px', 'top': '168.733px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -797,7 +797,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '336.24px', 'top': '168.733px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -824,7 +824,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '449.016px', 'top': '382.2px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -866,7 +866,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '272px', 'top': '484.4px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -899,7 +899,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '94.9844px', 'top': '382.2px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -926,7 +926,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '94.9844px', 'top': '177.8px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -952,7 +952,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '272px', 'top': '75.6px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div
@@ -979,7 +979,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
                             </svg>
                           </div>
                         </motion.div>
-                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer"
+                        <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8, delay: 1.5, type: "spring" }} className="absolute cursor-pointer hover:scale-110 hover:z-50 transition-transform duration-300"
                           style={{'left': '449.016px', 'top': '177.8px', 'zIndex': '15', 'opacity': '1', 'transform': 'none'}}
                         >
                           <div

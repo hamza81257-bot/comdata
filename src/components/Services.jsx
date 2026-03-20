@@ -193,7 +193,7 @@ function ServiceBlock({ section }) {
       viewport={{ once: true }}
       className="w-full lg:w-1/2"
     >
-      <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 bg-card-green/30">
+      <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 bg-card-green/30 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_15px_30px_rgba(0,174,239,0.15)] group hover:border-[#00aeef]/30">
         <h3 className="text-xl font-semibold text-[#545454] mb-3 text-center">{card.title}</h3>
         <p className="text-[#545454] mb-6 text-sm opacity-90 text-center">{card.desc}</p>
         <motion.div

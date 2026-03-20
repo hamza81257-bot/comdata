@@ -72,11 +72,11 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.1 }}
-            className="cursor-pointer transition-all duration-300 relative group hover:text-blue-400"
+            className="cursor-pointer transition-all duration-300 relative group hover:text-[#00aeef]"
             onClick={() => handleNavClick(link)}
           >
             {link.name}
-            <div className="absolute bottom-0 left-0 h-0.5 w-0 group-hover:w-full transition-all duration-300 bg-blue-400" />
+            <div className="absolute bottom-0 left-0 h-0.5 w-0 group-hover:w-full transition-all duration-300 bg-[#00aeef]" />
           </motion.li>
         ))}
       </ul>
