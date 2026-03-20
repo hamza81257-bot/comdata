@@ -5,9 +5,9 @@ import comdataLogo from '../assets/logos/ComdataLOGO-D-Ljkg_D.png';
 export default function HeroRightSide() {
   return (
     <div
-                        className="relative w-full h-full"
-                        style={{'minHeight': '350px', 'minWidth': '350px'}}
-                      >
+      className="relative w-full h-full transform scale-75 md:scale-90 lg:scale-100 origin-center"
+      style={{'minHeight': '600px', 'minWidth': '600px'}}
+    >
                               {/* Rotating dashed ring */}
       <motion.div
         className="absolute"
@@ -604,8 +604,8 @@ initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transiti
                           </g>
                         </svg>
                         <div
-                          className="absolute inset-0 flex items-center justify-center"
-                          style={{'zIndex': '20', 'opacity': '1', 'transform': 'none'}}
+                          className="absolute flex items-center justify-center"
+                          style={{'zIndex': '20', 'left': '292px', 'top': '300px', 'transform': 'translate(-50%, -50%)'}}
                         >
                           <div className="relative">
                             <div
