@@ -16,8 +16,8 @@ export default function HeroRightSide() {
         transition={{ duration: 25, repeat: Infinity, ease: 'linear' }}
       >
         <svg width="200" height="200" viewBox="0 0 200 200">
-          <circle cx="100" cy="100" r="95" fill="none" stroke="#3B82F6" strokeWidth="1" strokeDasharray="10 15" opacity="0.6" />
-          <circle cx="100" cy="100" r="85" fill="none" stroke="#60A5FA" strokeWidth="1" strokeDasharray="4 20" opacity="0.4" />
+          <circle cx="100" cy="100" r="95" fill="none" stroke="#00aeef" strokeWidth="1" strokeDasharray="10 15" opacity="0.6" />
+          <circle cx="100" cy="100" r="85" fill="none" stroke="#00aeef" strokeWidth="1" strokeDasharray="4 20" opacity="0.4" />
         </svg>
       </motion.div>
       
@@ -279,7 +279,7 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
 initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transition={{ duration: 1, delay: 1 }}                               cx="227.75999999999993"
                               cy="211.63277544578204"
                               r="4"
-                              fill="#3B82F6"
+                              fill="#00aeef"
                               filter="none"
                             ></motion.circle>
                           </g>
@@ -301,21 +301,21 @@ initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }
 initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transition={{ duration: 1, delay: 1 }}                               cx="227.75999999999993"
                               cy="251.49068237704614"
                               r="4"
-                              fill="#3B82F6"
+                              fill="#00aeef"
                               filter="none"
                             ></motion.circle>
                             <motion.circle
 initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transition={{ duration: 1, delay: 1 }}                               cx="356.24"
                               cy="387.25144447300084"
                               r="4"
-                              fill="#3B82F6"
+                              fill="#00aeef"
                               filter="none"
                             ></motion.circle>
                             <motion.circle
 initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transition={{ duration: 1, delay: 1 }}                               cx="356.24"
                               cy="387.85277244818474"
                               r="4"
-                              fill="#3B82F6"
+                              fill="#00aeef"
                               filter="none"
                             ></motion.circle>
                           </g>
@@ -554,7 +554,7 @@ initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transiti
                           <g>
                             <motion.path
 initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 0.7 }} transition={{ duration: 2, ease: "easeInOut" }}                               d="M 291.99999999999994 95.60000000000002 L 291.99999999999994 197.8 L 420.48 197.8 L 420.48 300"
-                              stroke="rgba(59, 130, 246, 0.9)"
+                              stroke="rgba(0, 174, 239, 0.9)"
                               strokeWidth="1.25"
                               fill="none"
                               filter="url(#glow)"
@@ -618,14 +618,14 @@ initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 0.9 }} transiti
                               />
                             </div>
                             <div
-                              className="absolute inset-0 rounded-full border-1 md:border-2 border-blue-400 opacity-60 animate-ping"
+                              className="absolute inset-0 rounded-full border-1 md:border-2 border-[#00aeef] opacity-60 animate-ping"
                             ></div>
                             <div
-                              className="absolute inset-0 rounded-full border-1 md:border-2 border-blue-300 opacity-40 animate-ping"
+                              className="absolute inset-0 rounded-full border-1 md:border-2 border-[#00aeef]/60 opacity-40 animate-ping"
                               style={{'animationDelay': '1s'}}
                             ></div>
                             <div
-                              className="absolute inset-0 rounded-full border-1 md:border-2 border-cyan-400 opacity-30 animate-ping"
+                              className="absolute inset-0 rounded-full border-1 md:border-2 border-[#00aeef]/30 opacity-30 animate-ping"
                               style={{'animationDelay': '2s'}}
                             ></div>
                           </div>

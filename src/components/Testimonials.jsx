@@ -64,7 +64,7 @@ export default function Testimonials() {
             viewport={{ once: true }}
             className="flex items-center justify-center md:justify-start gap-2 mb-6"
           >
-            <div className="w-2 h-2 bg-[#00A4EF] rounded-full" />
+            <div className="w-2 h-2 bg-[#00aeef] rounded-full" />
             <span className="text-gray-500 font-medium text-sm uppercase tracking-wider">Testimonials</span>
           </motion.div>
           <motion.h2
@@ -144,7 +144,7 @@ export default function Testimonials() {
                 key={i}
                 onClick={() => setActiveIndex(i)}
                 className={`h-3 rounded-full transition-all duration-300 ${
-                  activeIndex === i ? 'bg-[#00A4EF] w-8' : 'bg-gray-300 hover:bg-gray-400 w-3'
+                  activeIndex === i ? 'bg-[#00aeef] w-8' : 'bg-gray-300 hover:bg-gray-400 w-3'
                 }`}
               />
             ))}

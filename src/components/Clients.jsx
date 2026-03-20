@@ -48,7 +48,7 @@ export default function Clients() {
             viewport={{ once: true }}
             className="flex items-center justify-center md:justify-start gap-2 mb-4"
           >
-            <div className="w-2 h-2 bg-[#00A4EF] rounded-full" />
+            <div className="w-2 h-2 bg-[#00aeef] rounded-full" />
             <span className="text-gray-500 font-medium text-sm uppercase tracking-wider">Clients</span>
           </motion.div>
           <motion.h2

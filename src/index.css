@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-comdata-blue: #00A4EF;
+  --color-comdata-cyan: #00aeef;
+  --color-comdata-orange: #fbb03b;
+  --color-comdata-bg: #000103;
   --color-comdata-dark: #1a1a2e;
   --color-comdata-text: #545454;
   --color-card-green: #E6F1CC;
@@ -11,6 +13,7 @@
   --font-inter: 'Inter', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
 }
+
 
 
 html {

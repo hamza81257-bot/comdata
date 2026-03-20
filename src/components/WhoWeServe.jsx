@@ -42,7 +42,7 @@ export default function WhoWeServe() {
             viewport={{ once: true }}
             className="flex items-center justify-center md:justify-start gap-2 mb-4"
           >
-            <div className="w-2 h-2 bg-[#00A4EF] rounded-full" />
+            <div className="w-2 h-2 bg-[#00aeef] rounded-full" />
             <span className="text-gray-500 font-medium text-sm uppercase tracking-wider">WHO WE SERVE</span>
           </motion.div>
           <motion.p
@@ -74,7 +74,7 @@ export default function WhoWeServe() {
                 <div className="mr-2 sm:mr-3 flex-shrink-0">
                   <img alt={industry.name} className="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 object-contain" src={industry.icon} />
                 </div>
-                <span className="text-sm sm:text-base md:text-lg font-medium leading-snug group-hover:text-[#00A4EF] transition-colors duration-300">
+                <span className="text-sm sm:text-base md:text-lg font-medium leading-snug group-hover:text-[#00aeef] transition-colors duration-300">
                   {industry.name}
                 </span>
               </div>

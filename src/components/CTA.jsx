@@ -80,7 +80,7 @@ export default function CTA() {
         >
           <button
             onClick={() => navigate('/contact')}
-            className="bg-white text-[#00A4EF] font-semibold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden"
+            className="bg-white text-[#00aeef] font-semibold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden"
           >
             <span className="relative z-10">Work with us</span>
           </button>

@@ -283,7 +283,7 @@ export default function Services() {
           className="max-w-7xl mx-auto mb-10 text-center"
         >
           <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-            <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} viewport={{ once: true }} className="w-2 h-2 bg-[#00A4EF] rounded-full" />
+            <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} viewport={{ once: true }} className="w-2 h-2 bg-[#00aeef] rounded-full" />
             <span className="text-gray-500 font-medium text-sm uppercase tracking-wider">OUR SERVICES</span>
           </div>
           <motion.h2

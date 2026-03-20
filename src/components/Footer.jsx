@@ -79,7 +79,7 @@ export default function Footer() {
                         window.scrollTo({ top: 0 })
                       }
                     }}
-                    className="text-gray-600 hover:text-[#00A4EF] transition-colors duration-200 block text-center md:text-left w-full"
+                    className="text-gray-600 hover:text-[#00aeef] transition-colors duration-200 block text-center md:text-left w-full"
                   >
                     {link.label}
                   </a>
@@ -105,7 +105,7 @@ export default function Footer() {
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.03 }}
                 >
-                  <span className="text-gray-600 hover:text-[#00A4EF] transition-colors duration-200 cursor-pointer block">
+                  <span className="text-gray-600 hover:text-[#00aeef] transition-colors duration-200 cursor-pointer block">
                     {s}
                   </span>
                 </motion.li>
@@ -130,7 +130,7 @@ export default function Footer() {
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.03 }}
                 >
-                  <span className="text-gray-600 hover:text-[#00A4EF] transition-colors duration-200 cursor-pointer block">
+                  <span className="text-gray-600 hover:text-[#00aeef] transition-colors duration-200 cursor-pointer block">
                     {s}
                   </span>
                 </motion.li>
@@ -150,7 +150,7 @@ export default function Footer() {
             <div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3 relative">
                 Mumbai
-                <div className="absolute bottom-0 left-0 w-8 h-0.5 bg-[#00A4EF]" />
+                <div className="absolute bottom-0 left-0 w-8 h-0.5 bg-[#00aeef]" />
               </h4>
               <p className="text-gray-600 leading-relaxed">
                 4th Floor, Naik Brothers apartment, Near Laxmi book<br />
