@@ -247,6 +247,8 @@ function ServiceBlock({ section }) {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.05 }}
+            whileHover={{ scale: 1.02, x: 8 }}
+            whileTap={{ scale: 0.98 }}
             onClick={() => setActiveTab(i)}
             className={`w-full text-left py-3 px-5 md:py-4 md:px-6 font-medium text-[#545454] text-sm md:text-base transition-all ${tab.color} ${
               activeTab === i
