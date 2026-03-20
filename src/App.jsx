@@ -16,7 +16,7 @@ function App() {
     <>
       <ScrollToTop />
       {loading && <Preloader onComplete={() => setLoading(false)} />}
-      <div className={`transition-opacity duration-500 ${loading ? 'opacity-0 h-screen overflow-hidden' : 'opacity-100'}`}>
+      <div className={loading ? 'h-screen overflow-hidden' : ''}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

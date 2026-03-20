@@ -22,7 +22,7 @@ export default function Preloader({ onComplete }) {
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="fixed inset-0 z-[100] bg-[#0A0A0A] flex flex-col items-center justify-center overflow-hidden"
+          className="fixed inset-0 z-[100] bg-[#000103]/80 backdrop-blur-xl flex flex-col items-center justify-center overflow-hidden"
         >
           <div className="relative flex flex-col items-center z-10">
             {/* Main Logo fading in and slightly floating up */}
