@@ -11,17 +11,16 @@ const stats = [
 export default function HeroSection() {
   return (
     <div className="relative w-full min-h-screen overflow-hidden bg-comdata-bg">
-      {/* Background Video blended with Dark Navy aesthetic */}
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-[0.15] pointer-events-none"
+        className="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none"
       >
         <source src={heroVideo} type="video/mp4" />
       </video>
-      <div className="absolute inset-0 bg-[#000103]/60 mix-blend-multiply" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#000103]/20 via-[#000103]/50 to-[#000103] pointer-events-none" />
 
       {/* Top Ambient Glow matching reference */}
       <div className="absolute top-[-20%] left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-comdata-cyan/20 blur-[120px] rounded-full pointer-events-none" />
