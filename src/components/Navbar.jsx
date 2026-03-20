@@ -43,8 +43,8 @@ export default function Navbar() {
 
   const isHome = location.pathname === '/'
   const bgClass = scrolled || !isHome
-    ? 'bg-[#000103]/80 backdrop-blur-xl shadow-[0_4px_30px_rgba(0,174,239,0.05)] text-white border-b border-white/5'
-    : 'bg-gradient-to-b from-[#000103]/90 to-transparent text-white'
+    ? 'bg-white shadow-md text-gray-800'
+    : 'bg-transparent text-white'
 
   return (
     <motion.nav
